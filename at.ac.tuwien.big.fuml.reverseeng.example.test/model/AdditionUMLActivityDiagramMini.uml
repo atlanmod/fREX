@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_b0hZYIQKEeWA-tcb00QqXQ" name="root model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_b0hZYYQKEeWA-tcb00QqXQ" name="MainClass">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_b0hZYoQKEeWA-tcb00QqXQ" name="MainClass_sum" visibility="public" specification="_b0hZgYQKEeWA-tcb00QqXQ" node="_b0hZa4QKEeWA-tcb00QqXQ _b0hZboQKEeWA-tcb00QqXQ _b0hZcYQKEeWA-tcb00QqXQ _b0hZc4QKEeWA-tcb00QqXQ _b0hZd4QKEeWA-tcb00QqXQ _b0hZeIQKEeWA-tcb00QqXQ">
+        <ownedParameter xmi:id="_b0hZY4QKEeWA-tcb00QqXQ" name="return" direction="return"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_b0hZZIQKEeWA-tcb00QqXQ" name="CBA2APN1" target="_b0hZcYQKEeWA-tcb00QqXQ" source="_b0hZdoQKEeWA-tcb00QqXQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_b0hZZYQKEeWA-tcb00QqXQ" name="2LeftOperand2CBA_1" target="_b0hZdIQKEeWA-tcb00QqXQ" source="_b0hZd4QKEeWA-tcb00QqXQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_b0hZZoQKEeWA-tcb00QqXQ" name="2RightOperand2CBA2_1" target="_b0hZdYQKEeWA-tcb00QqXQ" source="_b0hZeIQKEeWA-tcb00QqXQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_b0hZZ4QKEeWA-tcb00QqXQ" name="VSA_to_declare_i" target="_b0hZd4QKEeWA-tcb00QqXQ" source="_b0hZbIQKEeWA-tcb00QqXQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_b0hZaIQKEeWA-tcb00QqXQ" name="2to_declare_i" target="_b0hZdIQKEeWA-tcb00QqXQ" source="_b0hZd4QKEeWA-tcb00QqXQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_b0hZaYQKEeWA-tcb00QqXQ" name="VSA_to_declare_j" target="_b0hZeIQKEeWA-tcb00QqXQ" source="_b0hZb4QKEeWA-tcb00QqXQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_b0hZaoQKEeWA-tcb00QqXQ" name="2to_declare_j" target="_b0hZdYQKEeWA-tcb00QqXQ" source="_b0hZeIQKEeWA-tcb00QqXQ"/>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_b0hZa4QKEeWA-tcb00QqXQ" name="VSA_1">
+          <result xmi:id="_b0hZbIQKEeWA-tcb00QqXQ" name="resultValueSpecificationActionOutput" outgoing="_b0hZZ4QKEeWA-tcb00QqXQ"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_b0hZbYQKEeWA-tcb00QqXQ" value="1"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_b0hZboQKEeWA-tcb00QqXQ" name="VSA_2">
+          <result xmi:id="_b0hZb4QKEeWA-tcb00QqXQ" name="resultValueSpecificationActionOutput" outgoing="_b0hZaYQKEeWA-tcb00QqXQ"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_b0hZcIQKEeWA-tcb00QqXQ" value="2"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_b0hZcYQKEeWA-tcb00QqXQ" name="return" incoming="_b0hZZIQKEeWA-tcb00QqXQ" parameter="_b0hZY4QKEeWA-tcb00QqXQ">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_b0hZcoQKEeWA-tcb00QqXQ" value="1"/>
+        </node>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_b0hZc4QKEeWA-tcb00QqXQ" name="+">
+          <argument xmi:id="_b0hZdIQKEeWA-tcb00QqXQ" name="first" incoming="_b0hZZYQKEeWA-tcb00QqXQ _b0hZaIQKEeWA-tcb00QqXQ"/>
+          <argument xmi:id="_b0hZdYQKEeWA-tcb00QqXQ" name="second" incoming="_b0hZZoQKEeWA-tcb00QqXQ _b0hZaoQKEeWA-tcb00QqXQ"/>
+          <result xmi:id="_b0hZdoQKEeWA-tcb00QqXQ" name="resultCallBehaviorActionOutput" outgoing="_b0hZZIQKEeWA-tcb00QqXQ"/>
+          <behavior xmi:type="uml:OpaqueBehavior" href="uml_library.uml#_3NE5YN_aEeKxs-T-7hfQjA"/>
+        </node>
+        <node xmi:type="uml:ForkNode" xmi:id="_b0hZd4QKEeWA-tcb00QqXQ" name="declare_i_fork_node" incoming="_b0hZZ4QKEeWA-tcb00QqXQ" outgoing="_b0hZZYQKEeWA-tcb00QqXQ _b0hZaIQKEeWA-tcb00QqXQ"/>
+        <node xmi:type="uml:ForkNode" xmi:id="_b0hZeIQKEeWA-tcb00QqXQ" name="declare_j_fork_node" incoming="_b0hZaYQKEeWA-tcb00QqXQ" outgoing="_b0hZZoQKEeWA-tcb00QqXQ _b0hZaoQKEeWA-tcb00QqXQ"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_b0hZeYQKEeWA-tcb00QqXQ" name="MainClass_main" visibility="public" specification="_b0hZg4QKEeWA-tcb00QqXQ" node="_b0hZe4QKEeWA-tcb00QqXQ _b0hZfYQKEeWA-tcb00QqXQ">
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_b0hZeoQKEeWA-tcb00QqXQ" name="fromExpressionOutput2COA_sum_1" target="_b0hZgIQKEeWA-tcb00QqXQ" source="_b0hZfIQKEeWA-tcb00QqXQ"/>
+        <node xmi:type="uml:CreateObjectAction" xmi:id="_b0hZe4QKEeWA-tcb00QqXQ" name="Constructor Invocation of MainClass.java" classifier="_b0hZYYQKEeWA-tcb00QqXQ">
+          <result xmi:id="_b0hZfIQKEeWA-tcb00QqXQ" name="Result of constructor invocation of MainClass.java" outgoing="_b0hZeoQKEeWA-tcb00QqXQ" type="_b0hZYYQKEeWA-tcb00QqXQ"/>
+        </node>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_b0hZfYQKEeWA-tcb00QqXQ" name="sum" operation="_b0hZgYQKEeWA-tcb00QqXQ">
+          <argument xmi:id="_b0hZfoQKEeWA-tcb00QqXQ" name="target"/>
+          <result xmi:id="_b0hZf4QKEeWA-tcb00QqXQ" name="callOperationActionOutput"/>
+          <target xmi:id="_b0hZgIQKEeWA-tcb00QqXQ" name="objectInput" incoming="_b0hZeoQKEeWA-tcb00QqXQ"/>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_b0hZgYQKEeWA-tcb00QqXQ" name="Method_MainClass_sum" method="_b0hZYoQKEeWA-tcb00QqXQ">
+        <ownedParameter xmi:id="_b0hZgoQKEeWA-tcb00QqXQ" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_b0hZg4QKEeWA-tcb00QqXQ" name="Method_MainClass_main" method="_b0hZeYQKEeWA-tcb00QqXQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b0hZhIQKEeWA-tcb00QqXQ" name="String[]">
+      <ownedAttribute xmi:id="_b0hZhYQKEeWA-tcb00QqXQ" name="type"/>
+    </packagedElement>
+  </uml:Model>
+  <uml:Property xmi:id="_b0hZhoQKEeWA-tcb00QqXQ" name="out" visibility="package" isUnique="false">
+    <type xmi:type="uml:PrimitiveType" href="UMLPrimitiveTypes.library.uml#Integer"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b0hZh4QKEeWA-tcb00QqXQ"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b0hZiIQKEeWA-tcb00QqXQ" value="*"/>
+  </uml:Property>
+</xmi:XMI>

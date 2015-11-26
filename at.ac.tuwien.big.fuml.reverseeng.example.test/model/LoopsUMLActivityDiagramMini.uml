@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_IZDmYA6yEeWlTIgSRr6gfQ" name="root model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_IZDmYQ6yEeWlTIgSRr6gfQ" name="MainClass">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_IZDmYg6yEeWlTIgSRr6gfQ" name="MainClass_sum" visibility="public" specification="_IZDmgQ6yEeWlTIgSRr6gfQ" node="_IZDmag6yEeWlTIgSRr6gfQ _IZDmbQ6yEeWlTIgSRr6gfQ _IZDmcA6yEeWlTIgSRr6gfQ _IZDmcg6yEeWlTIgSRr6gfQ _IZDmdg6yEeWlTIgSRr6gfQ _IZDmdw6yEeWlTIgSRr6gfQ">
+        <ownedParameter xmi:id="_IZDmYw6yEeWlTIgSRr6gfQ" name="return" direction="return"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_IZDmZA6yEeWlTIgSRr6gfQ" name="Expression2APN_1" target="_IZDmcA6yEeWlTIgSRr6gfQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_IZDmZQ6yEeWlTIgSRr6gfQ" name="CBA2APN1" target="_IZDmcA6yEeWlTIgSRr6gfQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_IZDmZg6yEeWlTIgSRr6gfQ" name="LeftOperand2CBA_1" target="_IZDmcw6yEeWlTIgSRr6gfQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_IZDmZw6yEeWlTIgSRr6gfQ" name="RightOperand2CBA_1" target="_IZDmdA6yEeWlTIgSRr6gfQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_IZDmaA6yEeWlTIgSRr6gfQ" name="to_declare_i" source="_IZDmdg6yEeWlTIgSRr6gfQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_IZDmaQ6yEeWlTIgSRr6gfQ" name="to_declare_j" source="_IZDmdw6yEeWlTIgSRr6gfQ"/>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_IZDmag6yEeWlTIgSRr6gfQ" name="VSA_1">
+          <result xmi:id="_IZDmaw6yEeWlTIgSRr6gfQ" name="resultValueSpecificationActionOutput"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_IZDmbA6yEeWlTIgSRr6gfQ" value="1"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_IZDmbQ6yEeWlTIgSRr6gfQ" name="VSA_2">
+          <result xmi:id="_IZDmbg6yEeWlTIgSRr6gfQ" name="resultValueSpecificationActionOutput"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_IZDmbw6yEeWlTIgSRr6gfQ" value="2"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_IZDmcA6yEeWlTIgSRr6gfQ" name="return" incoming="_IZDmZA6yEeWlTIgSRr6gfQ _IZDmZQ6yEeWlTIgSRr6gfQ" parameter="_IZDmYw6yEeWlTIgSRr6gfQ">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IZDmcQ6yEeWlTIgSRr6gfQ" value="1"/>
+        </node>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_IZDmcg6yEeWlTIgSRr6gfQ" name="+">
+          <argument xmi:id="_IZDmcw6yEeWlTIgSRr6gfQ" name="first" incoming="_IZDmZg6yEeWlTIgSRr6gfQ"/>
+          <argument xmi:id="_IZDmdA6yEeWlTIgSRr6gfQ" name="second" incoming="_IZDmZw6yEeWlTIgSRr6gfQ"/>
+          <result xmi:id="_IZDmdQ6yEeWlTIgSRr6gfQ" name="resultCallBehaviorActionOutput"/>
+        </node>
+        <node xmi:type="uml:ForkNode" xmi:id="_IZDmdg6yEeWlTIgSRr6gfQ" name="declare_i_fork_node" outgoing="_IZDmaA6yEeWlTIgSRr6gfQ"/>
+        <node xmi:type="uml:ForkNode" xmi:id="_IZDmdw6yEeWlTIgSRr6gfQ" name="declare_j_fork_node" outgoing="_IZDmaQ6yEeWlTIgSRr6gfQ"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_IZDmeA6yEeWlTIgSRr6gfQ" name="MainClass_main" visibility="public" specification="_IZDmgw6yEeWlTIgSRr6gfQ" node="_IZDmew6yEeWlTIgSRr6gfQ _IZDmfQ6yEeWlTIgSRr6gfQ">
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_IZDmeQ6yEeWlTIgSRr6gfQ" name="VSA2COA_1" target="_IZDmfg6yEeWlTIgSRr6gfQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_IZDmeg6yEeWlTIgSRr6gfQ" name="fromExpressionOutput2COA_sum_1" target="_IZDmgA6yEeWlTIgSRr6gfQ" source="_IZDmfA6yEeWlTIgSRr6gfQ"/>
+        <node xmi:type="uml:CreateObjectAction" xmi:id="_IZDmew6yEeWlTIgSRr6gfQ" name="Constructor Invocation of MainClass.java" classifier="_IZDmYQ6yEeWlTIgSRr6gfQ">
+          <result xmi:id="_IZDmfA6yEeWlTIgSRr6gfQ" name="Result of constructor invocation of MainClass.java" outgoing="_IZDmeg6yEeWlTIgSRr6gfQ" type="_IZDmYQ6yEeWlTIgSRr6gfQ"/>
+        </node>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_IZDmfQ6yEeWlTIgSRr6gfQ" name="sum" operation="_IZDmgQ6yEeWlTIgSRr6gfQ">
+          <argument xmi:id="_IZDmfg6yEeWlTIgSRr6gfQ" name="target" incoming="_IZDmeQ6yEeWlTIgSRr6gfQ"/>
+          <result xmi:id="_IZDmfw6yEeWlTIgSRr6gfQ" name="callOperationActionOutput"/>
+          <target xmi:id="_IZDmgA6yEeWlTIgSRr6gfQ" name="objectInput" incoming="_IZDmeg6yEeWlTIgSRr6gfQ"/>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_IZDmgQ6yEeWlTIgSRr6gfQ" name="Method_MainClass_sum" method="_IZDmYg6yEeWlTIgSRr6gfQ">
+        <ownedParameter xmi:id="_IZDmgg6yEeWlTIgSRr6gfQ" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IZDmgw6yEeWlTIgSRr6gfQ" name="Method_MainClass_main" method="_IZDmeA6yEeWlTIgSRr6gfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IZDmhA6yEeWlTIgSRr6gfQ" name="String[]">
+      <ownedAttribute xmi:id="_IZDmhQ6yEeWlTIgSRr6gfQ" name="type"/>
+    </packagedElement>
+  </uml:Model>
+  <uml:Property xmi:id="_IZDmhg6yEeWlTIgSRr6gfQ" name="out" visibility="package" isUnique="false">
+    <type xmi:type="uml:PrimitiveType" href="UMLPrimitiveTypes.library.uml#Integer"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZDmhw6yEeWlTIgSRr6gfQ"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZDmiA6yEeWlTIgSRr6gfQ" value="1"/>
+  </uml:Property>
+</xmi:XMI>

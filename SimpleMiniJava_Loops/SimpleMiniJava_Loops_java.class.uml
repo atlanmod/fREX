@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_rLohcJQdEeW7Xoe_Qzhpgw" name="root model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_rLohcZQdEeW7Xoe_Qzhpgw" name="BreakWhileLoop">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_rLohcpQdEeW7Xoe_Qzhpgw" name="BreakWhileLoop_whileMethod" visibility="public" specification="_rLohypQdEeW7Xoe_Qzhpgw" node="_rLohf5QdEeW7Xoe_Qzhpgw _rLohgpQdEeW7Xoe_Qzhpgw _rLohhZQdEeW7Xoe_Qzhpgw _rLohiJQdEeW7Xoe_Qzhpgw _rLohipQdEeW7Xoe_Qzhpgw _rLohi5QdEeW7Xoe_Qzhpgw _rLohjJQdEeW7Xoe_Qzhpgw" group="_rLohjJQdEeW7Xoe_Qzhpgw">
+        <ownedParameter xmi:id="_rLohc5QdEeW7Xoe_Qzhpgw" name="return" direction="return"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohdJQdEeW7Xoe_Qzhpgw" name="CBA2APN1" target="_rLohiJQdEeW7Xoe_Qzhpgw" source="_rLohmJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohdZQdEeW7Xoe_Qzhpgw" name="VSA_to_declare_i" target="_rLohipQdEeW7Xoe_Qzhpgw" source="_rLohgJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohdpQdEeW7Xoe_Qzhpgw" name="declare_i_fork_node_to_while_input_i" target="_rLohlpQdEeW7Xoe_Qzhpgw" source="_rLohipQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohd5QdEeW7Xoe_Qzhpgw" name="while_input_i_to_while_fork_i_0" target="_rLohupQdEeW7Xoe_Qzhpgw" source="_rLohlpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLoheJQdEeW7Xoe_Qzhpgw" name="while_fork_i_0_to_while_merge_i" target="_rLohvZQdEeW7Xoe_Qzhpgw" source="_rLohupQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLoheZQdEeW7Xoe_Qzhpgw" name="while_merge_i_to_while_fork_i_1" target="_rLohu5QdEeW7Xoe_Qzhpgw" source="_rLohvZQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohepQdEeW7Xoe_Qzhpgw" name="VSA_to_declare_j" target="_rLohi5QdEeW7Xoe_Qzhpgw" source="_rLohg5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohe5QdEeW7Xoe_Qzhpgw" name="declare_j_fork_node_to_while_input_j" target="_rLohl5QdEeW7Xoe_Qzhpgw" source="_rLohi5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohfJQdEeW7Xoe_Qzhpgw" name="while_input_j_to_while_fork_j_0" target="_rLohvpQdEeW7Xoe_Qzhpgw" source="_rLohl5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohfZQdEeW7Xoe_Qzhpgw" name="while_fork_j_0_to_while_merge_j" target="_rLohwZQdEeW7Xoe_Qzhpgw" source="_rLohvpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohfpQdEeW7Xoe_Qzhpgw" name="while_merge_j_to_while_fork_j_1" target="_rLohv5QdEeW7Xoe_Qzhpgw" source="_rLohwZQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_rLohf5QdEeW7Xoe_Qzhpgw" name="VSA_1">
+          <result xmi:id="_rLohgJQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_rLohdZQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_rLohgZQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_rLohgpQdEeW7Xoe_Qzhpgw" name="VSA_2">
+          <result xmi:id="_rLohg5QdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_rLohepQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_rLohhJQdEeW7Xoe_Qzhpgw" value="5"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_rLohhZQdEeW7Xoe_Qzhpgw" name="VSA_3">
+          <result xmi:id="_rLohhpQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_rLohh5QdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rLohiJQdEeW7Xoe_Qzhpgw" name="return" incoming="_rLohdJQdEeW7Xoe_Qzhpgw" parameter="_rLohc5QdEeW7Xoe_Qzhpgw">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_rLohiZQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ForkNode" xmi:id="_rLohipQdEeW7Xoe_Qzhpgw" name="declare_i_fork_node" incoming="_rLohdZQdEeW7Xoe_Qzhpgw" outgoing="_rLohdpQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:ForkNode" xmi:id="_rLohi5QdEeW7Xoe_Qzhpgw" name="declare_j_fork_node" incoming="_rLohepQdEeW7Xoe_Qzhpgw" outgoing="_rLohe5QdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:StructuredActivityNode" xmi:id="_rLohjJQdEeW7Xoe_Qzhpgw" name="while">
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohjZQdEeW7Xoe_Qzhpgw" name="test_output_result_to_fork_test_result" target="_rLohqZQdEeW7Xoe_Qzhpgw" source="_rLohopQdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohjpQdEeW7Xoe_Qzhpgw" name="fork_test_result_to_test_decision_i" target="_rLohvJQdEeW7Xoe_Qzhpgw" source="_rLohqZQdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohj5QdEeW7Xoe_Qzhpgw" name="fork_test_result_to_test_decision_j" target="_rLohwJQdEeW7Xoe_Qzhpgw" source="_rLohqZQdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohkJQdEeW7Xoe_Qzhpgw" name="while_fork_j_1_to_test_input_j" target="_rLohoZQdEeW7Xoe_Qzhpgw" source="_rLohv5QdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohkZQdEeW7Xoe_Qzhpgw" name="while_fork_i_1_to_test_input_i" target="_rLohoJQdEeW7Xoe_Qzhpgw" source="_rLohu5QdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohkpQdEeW7Xoe_Qzhpgw" name="test_decision_i_to_body_input_i" target="_rLohsJQdEeW7Xoe_Qzhpgw" source="_rLohvJQdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohk5QdEeW7Xoe_Qzhpgw" name="test_decision_i_to_body_input_i" target="_rLohsZQdEeW7Xoe_Qzhpgw" source="_rLohvJQdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohlJQdEeW7Xoe_Qzhpgw" name="test_decision_i_to_while_output_i" target="_rLohmJQdEeW7Xoe_Qzhpgw" source="_rLohvJQdEeW7Xoe_Qzhpgw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohlZQdEeW7Xoe_Qzhpgw" name="test_decision_j_to_while_output_j" target="_rLohmZQdEeW7Xoe_Qzhpgw" source="_rLohwJQdEeW7Xoe_Qzhpgw"/>
+          <structuredNodeInput xmi:id="_rLohlpQdEeW7Xoe_Qzhpgw" name="while_input_i" incoming="_rLohdpQdEeW7Xoe_Qzhpgw" outgoing="_rLohd5QdEeW7Xoe_Qzhpgw"/>
+          <structuredNodeInput xmi:id="_rLohl5QdEeW7Xoe_Qzhpgw" name="while_input_j" incoming="_rLohe5QdEeW7Xoe_Qzhpgw" outgoing="_rLohfJQdEeW7Xoe_Qzhpgw"/>
+          <structuredNodeOutput xmi:id="_rLohmJQdEeW7Xoe_Qzhpgw" name="while_output_i" incoming="_rLohlJQdEeW7Xoe_Qzhpgw" outgoing="_rLohdJQdEeW7Xoe_Qzhpgw"/>
+          <structuredNodeOutput xmi:id="_rLohmZQdEeW7Xoe_Qzhpgw" name="while_output_j" incoming="_rLohlZQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:StructuredActivityNode" xmi:id="_rLohmpQdEeW7Xoe_Qzhpgw" name="while_test">
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohm5QdEeW7Xoe_Qzhpgw" name="test_fork_to_inputPinTestLeft" target="_rLohpJQdEeW7Xoe_Qzhpgw" source="_rLohqJQdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohnJQdEeW7Xoe_Qzhpgw" name="test_fork_to_inputPinTestRight" target="_rLohpZQdEeW7Xoe_Qzhpgw" source="_rLohp5QdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohnZQdEeW7Xoe_Qzhpgw" name="outputPin_to_test_output_result" target="_rLohopQdEeW7Xoe_Qzhpgw" source="_rLohppQdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohnpQdEeW7Xoe_Qzhpgw" name="test_input_j_to_test_fork_j" target="_rLohp5QdEeW7Xoe_Qzhpgw" source="_rLohoZQdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohn5QdEeW7Xoe_Qzhpgw" name="test_input_i_to_test_fork_i" target="_rLohqJQdEeW7Xoe_Qzhpgw" source="_rLohoJQdEeW7Xoe_Qzhpgw"/>
+            <structuredNodeInput xmi:id="_rLohoJQdEeW7Xoe_Qzhpgw" name="test_input_i" incoming="_rLohkZQdEeW7Xoe_Qzhpgw" outgoing="_rLohn5QdEeW7Xoe_Qzhpgw"/>
+            <structuredNodeInput xmi:id="_rLohoZQdEeW7Xoe_Qzhpgw" name="test_input_j" incoming="_rLohkJQdEeW7Xoe_Qzhpgw" outgoing="_rLohnpQdEeW7Xoe_Qzhpgw"/>
+            <structuredNodeOutput xmi:id="_rLohopQdEeW7Xoe_Qzhpgw" name="test_output_result" incoming="_rLohnZQdEeW7Xoe_Qzhpgw" outgoing="_rLohjZQdEeW7Xoe_Qzhpgw"/>
+            <node xmi:type="uml:CallBehaviorAction" xmi:id="_rLoho5QdEeW7Xoe_Qzhpgw" name="&lt;">
+              <argument xmi:id="_rLohpJQdEeW7Xoe_Qzhpgw" name="first" incoming="_rLohm5QdEeW7Xoe_Qzhpgw"/>
+              <argument xmi:id="_rLohpZQdEeW7Xoe_Qzhpgw" name="second" incoming="_rLohnJQdEeW7Xoe_Qzhpgw"/>
+              <result xmi:id="_rLohppQdEeW7Xoe_Qzhpgw" name="resultCallBehaviorActionOutput" outgoing="_rLohnZQdEeW7Xoe_Qzhpgw"/>
+            </node>
+            <node xmi:type="uml:ForkNode" xmi:id="_rLohp5QdEeW7Xoe_Qzhpgw" name="test_fork_j" incoming="_rLohnpQdEeW7Xoe_Qzhpgw" outgoing="_rLohnJQdEeW7Xoe_Qzhpgw"/>
+            <node xmi:type="uml:ForkNode" xmi:id="_rLohqJQdEeW7Xoe_Qzhpgw" name="test_fork_i" incoming="_rLohn5QdEeW7Xoe_Qzhpgw" outgoing="_rLohm5QdEeW7Xoe_Qzhpgw"/>
+          </node>
+          <node xmi:type="uml:ForkNode" xmi:id="_rLohqZQdEeW7Xoe_Qzhpgw" name="fork_test_result" incoming="_rLohjZQdEeW7Xoe_Qzhpgw" outgoing="_rLohjpQdEeW7Xoe_Qzhpgw _rLohj5QdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:StructuredActivityNode" xmi:id="_rLohqpQdEeW7Xoe_Qzhpgw" name="while_body">
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohq5QdEeW7Xoe_Qzhpgw" name="body_fork_to_first" target="_rLohtZQdEeW7Xoe_Qzhpgw" source="_rLohuZQdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohrJQdEeW7Xoe_Qzhpgw" name="CBAOutput_to_body_output" target="_rLohs5QdEeW7Xoe_Qzhpgw" source="_rLoht5QdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohrZQdEeW7Xoe_Qzhpgw" name="body_fork_to_body_output" target="_rLohs5QdEeW7Xoe_Qzhpgw" source="_rLohuZQdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohrpQdEeW7Xoe_Qzhpgw" name="body_input_i_to_body_fork_i" target="_rLohuJQdEeW7Xoe_Qzhpgw" source="_rLohsJQdEeW7Xoe_Qzhpgw"/>
+            <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohr5QdEeW7Xoe_Qzhpgw" name="body_input_i_to_body_fork_i" target="_rLohuZQdEeW7Xoe_Qzhpgw" source="_rLohsZQdEeW7Xoe_Qzhpgw"/>
+            <structuredNodeInput xmi:id="_rLohsJQdEeW7Xoe_Qzhpgw" name="body_input_i" incoming="_rLohkpQdEeW7Xoe_Qzhpgw" outgoing="_rLohrpQdEeW7Xoe_Qzhpgw"/>
+            <structuredNodeInput xmi:id="_rLohsZQdEeW7Xoe_Qzhpgw" name="body_input_i" incoming="_rLohk5QdEeW7Xoe_Qzhpgw" outgoing="_rLohr5QdEeW7Xoe_Qzhpgw"/>
+            <structuredNodeOutput xmi:id="_rLohspQdEeW7Xoe_Qzhpgw" name="body_output_i"/>
+            <structuredNodeOutput xmi:id="_rLohs5QdEeW7Xoe_Qzhpgw" name="body_output_i" incoming="_rLohrJQdEeW7Xoe_Qzhpgw _rLohrZQdEeW7Xoe_Qzhpgw"/>
+            <node xmi:type="uml:CallBehaviorAction" xmi:id="_rLohtJQdEeW7Xoe_Qzhpgw" name="+">
+              <argument xmi:id="_rLohtZQdEeW7Xoe_Qzhpgw" name="first" incoming="_rLohq5QdEeW7Xoe_Qzhpgw"/>
+              <argument xmi:id="_rLohtpQdEeW7Xoe_Qzhpgw" name="second"/>
+              <result xmi:id="_rLoht5QdEeW7Xoe_Qzhpgw" name="CBAOutput" outgoing="_rLohrJQdEeW7Xoe_Qzhpgw"/>
+            </node>
+            <node xmi:type="uml:ForkNode" xmi:id="_rLohuJQdEeW7Xoe_Qzhpgw" name="body_fork_i" incoming="_rLohrpQdEeW7Xoe_Qzhpgw"/>
+            <node xmi:type="uml:ForkNode" xmi:id="_rLohuZQdEeW7Xoe_Qzhpgw" name="body_fork_i" incoming="_rLohr5QdEeW7Xoe_Qzhpgw" outgoing="_rLohq5QdEeW7Xoe_Qzhpgw _rLohrZQdEeW7Xoe_Qzhpgw"/>
+          </node>
+          <node xmi:type="uml:ForkNode" xmi:id="_rLohupQdEeW7Xoe_Qzhpgw" name="while_fork_i_0" incoming="_rLohd5QdEeW7Xoe_Qzhpgw" outgoing="_rLoheJQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_rLohu5QdEeW7Xoe_Qzhpgw" name="while_fork_i_1" incoming="_rLoheZQdEeW7Xoe_Qzhpgw" outgoing="_rLohkZQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_rLohvJQdEeW7Xoe_Qzhpgw" name="test_decision_i" incoming="_rLohjpQdEeW7Xoe_Qzhpgw" outgoing="_rLohkpQdEeW7Xoe_Qzhpgw _rLohk5QdEeW7Xoe_Qzhpgw _rLohlJQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:MergeNode" xmi:id="_rLohvZQdEeW7Xoe_Qzhpgw" name="while_merge_i" incoming="_rLoheJQdEeW7Xoe_Qzhpgw" outgoing="_rLoheZQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_rLohvpQdEeW7Xoe_Qzhpgw" name="while_fork_j_0" incoming="_rLohfJQdEeW7Xoe_Qzhpgw" outgoing="_rLohfZQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_rLohv5QdEeW7Xoe_Qzhpgw" name="while_fork_j_1" incoming="_rLohfpQdEeW7Xoe_Qzhpgw" outgoing="_rLohkJQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_rLohwJQdEeW7Xoe_Qzhpgw" name="test_decision_j" incoming="_rLohj5QdEeW7Xoe_Qzhpgw" outgoing="_rLohlZQdEeW7Xoe_Qzhpgw"/>
+          <node xmi:type="uml:MergeNode" xmi:id="_rLohwZQdEeW7Xoe_Qzhpgw" name="while_merge_j" incoming="_rLohfZQdEeW7Xoe_Qzhpgw" outgoing="_rLohfpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_rLohwpQdEeW7Xoe_Qzhpgw" name="BreakWhileLoop_main" visibility="public" specification="_rLohzJQdEeW7Xoe_Qzhpgw" node="_rLohxJQdEeW7Xoe_Qzhpgw _rLohxpQdEeW7Xoe_Qzhpgw">
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_rLohw5QdEeW7Xoe_Qzhpgw" name="fromExpressionOutput2COA_whileMethod_1" target="_rLohyZQdEeW7Xoe_Qzhpgw" source="_rLohxZQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:CreateObjectAction" xmi:id="_rLohxJQdEeW7Xoe_Qzhpgw" name="Constructor Invocation of BreakWhileLoop.java" classifier="_rLohcZQdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_rLohxZQdEeW7Xoe_Qzhpgw" name="Result of constructor invocation of BreakWhileLoop.java" outgoing="_rLohw5QdEeW7Xoe_Qzhpgw" type="_rLohcZQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_rLohxpQdEeW7Xoe_Qzhpgw" name="whileMethod" operation="_rLohypQdEeW7Xoe_Qzhpgw">
+          <argument xmi:id="_rLohx5QdEeW7Xoe_Qzhpgw" name="target"/>
+          <result xmi:id="_rLohyJQdEeW7Xoe_Qzhpgw" name="callOperationActionOutput"/>
+          <target xmi:id="_rLohyZQdEeW7Xoe_Qzhpgw" name="objectInput" incoming="_rLohw5QdEeW7Xoe_Qzhpgw"/>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_rLohypQdEeW7Xoe_Qzhpgw" name="Method_BreakWhileLoop_whileMethod" method="_rLohcpQdEeW7Xoe_Qzhpgw">
+        <ownedParameter xmi:id="_rLohy5QdEeW7Xoe_Qzhpgw" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_rLohzJQdEeW7Xoe_Qzhpgw" name="Method_BreakWhileLoop_main" method="_rLohwpQdEeW7Xoe_Qzhpgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rLohzZQdEeW7Xoe_Qzhpgw" name="String[]">
+      <ownedAttribute xmi:id="_rLohzpQdEeW7Xoe_Qzhpgw" name="type"/>
+    </packagedElement>
+  </uml:Model>
+  <uml:Property xmi:id="_rLohz5QdEeW7Xoe_Qzhpgw" name="out" visibility="package" isUnique="false">
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rLoh0JQdEeW7Xoe_Qzhpgw"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rLoh0ZQdEeW7Xoe_Qzhpgw" value="*"/>
+  </uml:Property>
+</xmi:XMI>

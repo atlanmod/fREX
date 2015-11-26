@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: at.ac.tuwien.big.fuml.reverseeng.example.test
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.modelexecution.fuml.convert,
+ org.eclipse.uml2.uml,
+ org.junit
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

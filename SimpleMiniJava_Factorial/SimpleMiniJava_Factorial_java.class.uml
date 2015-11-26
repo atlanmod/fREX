@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_lrZMAJQdEeW7Xoe_Qzhpgw" name="root model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_lrZMAZQdEeW7Xoe_Qzhpgw" name="Fac">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_lrZMApQdEeW7Xoe_Qzhpgw" name="Fac_ComputeFac" visibility="public" specification="_lrZzIJQdEeW7Xoe_Qzhpgw" node="_lrZMGJQdEeW7Xoe_Qzhpgw _lrZMHJQdEeW7Xoe_Qzhpgw _lrZMH5QdEeW7Xoe_Qzhpgw _lrZMIpQdEeW7Xoe_Qzhpgw _lrZMJZQdEeW7Xoe_Qzhpgw _lrZMJ5QdEeW7Xoe_Qzhpgw _lrZMKZQdEeW7Xoe_Qzhpgw _lrZzE5QdEeW7Xoe_Qzhpgw _lrZzF5QdEeW7Xoe_Qzhpgw _lrZzG5QdEeW7Xoe_Qzhpgw _lrZzHJQdEeW7Xoe_Qzhpgw _lrZzHZQdEeW7Xoe_Qzhpgw _lrZzH5QdEeW7Xoe_Qzhpgw">
+        <ownedParameter xmi:id="_lrZMA5QdEeW7Xoe_Qzhpgw" name="num"/>
+        <ownedParameter xmi:id="_lrZMBJQdEeW7Xoe_Qzhpgw" name="return" direction="return"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMBZQdEeW7Xoe_Qzhpgw" name="VSA2COA_1" target="_lrZMGZQdEeW7Xoe_Qzhpgw" source="_lrZzGpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMBpQdEeW7Xoe_Qzhpgw" name="fromExpressionOutput2COA_ComputeFac_1" target="_lrZMG5QdEeW7Xoe_Qzhpgw" source="_lrZzHpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMB5QdEeW7Xoe_Qzhpgw" name="fromExpressionToActivityParameterNode" target="_lrZzHJQdEeW7Xoe_Qzhpgw" source="_lrZMJZQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMCJQdEeW7Xoe_Qzhpgw" name="Expression2APN_1" target="_lrZMJ5QdEeW7Xoe_Qzhpgw" source="_lrZMIJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMCZQdEeW7Xoe_Qzhpgw" name="CBA2APN1" target="_lrZMJ5QdEeW7Xoe_Qzhpgw" source="_lrZzFpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMCpQdEeW7Xoe_Qzhpgw" name="2LeftOperand2CBA_1" target="_lrZzEJQdEeW7Xoe_Qzhpgw" source="_lrZzHJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMC5QdEeW7Xoe_Qzhpgw" name="2RightOperand2CBA2_1" target="_lrZzEZQdEeW7Xoe_Qzhpgw" source="_lrZMHZQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMDJQdEeW7Xoe_Qzhpgw" name="2LeftOperand2CBA_2" target="_lrZzFJQdEeW7Xoe_Qzhpgw" source="_lrZzHJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMDZQdEeW7Xoe_Qzhpgw" name="2RightOperand2CBA2_2" target="_lrZzFZQdEeW7Xoe_Qzhpgw" source="_lrZMGpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMDpQdEeW7Xoe_Qzhpgw" name="2LeftOperand2CBA_3" target="_lrZzGJQdEeW7Xoe_Qzhpgw" source="_lrZzHJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMD5QdEeW7Xoe_Qzhpgw" name="2RightOperand2CBA2_3" target="_lrZzGZQdEeW7Xoe_Qzhpgw" source="_lrZMI5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_lrZMEJQdEeW7Xoe_Qzhpgw" name="" target="_lrZzG5QdEeW7Xoe_Qzhpgw" source="_lrZMKZQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZMEZQdEeW7Xoe_Qzhpgw" name="&lt;&lt;decisionInputFlow>> - Test expression to DecisionNode" target="_lrZzG5QdEeW7Xoe_Qzhpgw" source="_lrZzEpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_lrZMEpQdEeW7Xoe_Qzhpgw" name="Then(true) - DecisionNode to ThenStatement" target="_lrZMH5QdEeW7Xoe_Qzhpgw" source="_lrZzG5QdEeW7Xoe_Qzhpgw">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_lrZME5QdEeW7Xoe_Qzhpgw" value="true"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_lrZMFJQdEeW7Xoe_Qzhpgw" name="Else(false) - DecisionNode to ElseStatement" target="_lrZzH5QdEeW7Xoe_Qzhpgw" source="_lrZzG5QdEeW7Xoe_Qzhpgw">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_lrZMFZQdEeW7Xoe_Qzhpgw"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_lrZMFpQdEeW7Xoe_Qzhpgw" name="readself" target="_lrZzHZQdEeW7Xoe_Qzhpgw" source="_lrZzH5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_lrZMF5QdEeW7Xoe_Qzhpgw" name="1to_declare_num_aux" target="_lrZMIpQdEeW7Xoe_Qzhpgw" source="_lrZzH5QdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_lrZMGJQdEeW7Xoe_Qzhpgw" name="ComputeFac" operation="_lrZzIJQdEeW7Xoe_Qzhpgw">
+          <argument xmi:id="_lrZMGZQdEeW7Xoe_Qzhpgw" name="target" incoming="_lrZMBZQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_lrZMGpQdEeW7Xoe_Qzhpgw" name="callOperationActionOutput" outgoing="_lrZMDZQdEeW7Xoe_Qzhpgw"/>
+          <target xmi:id="_lrZMG5QdEeW7Xoe_Qzhpgw" name="objectInput" incoming="_lrZMBpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_lrZMHJQdEeW7Xoe_Qzhpgw" name="VSA_1">
+          <result xmi:id="_lrZMHZQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_lrZMC5QdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_lrZMHpQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_lrZMH5QdEeW7Xoe_Qzhpgw" name="VSA_2" incoming="_lrZMEpQdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_lrZMIJQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_lrZMCJQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_lrZMIZQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_lrZMIpQdEeW7Xoe_Qzhpgw" name="VSA_3" incoming="_lrZMF5QdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_lrZMI5QdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput_inputOfMinus" outgoing="_lrZMD5QdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_lrZMJJQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_lrZMJZQdEeW7Xoe_Qzhpgw" name="num" outgoing="_lrZMB5QdEeW7Xoe_Qzhpgw" parameter="_lrZMA5QdEeW7Xoe_Qzhpgw">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_lrZMJpQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_lrZMJ5QdEeW7Xoe_Qzhpgw" name="return" incoming="_lrZMCJQdEeW7Xoe_Qzhpgw _lrZMCZQdEeW7Xoe_Qzhpgw" parameter="_lrZMBJQdEeW7Xoe_Qzhpgw">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_lrZMKJQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_lrZMKZQdEeW7Xoe_Qzhpgw" name="&lt;" outgoing="_lrZMEJQdEeW7Xoe_Qzhpgw">
+          <argument xmi:id="_lrZzEJQdEeW7Xoe_Qzhpgw" name="first" incoming="_lrZMCpQdEeW7Xoe_Qzhpgw"/>
+          <argument xmi:id="_lrZzEZQdEeW7Xoe_Qzhpgw" name="second" incoming="_lrZMC5QdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_lrZzEpQdEeW7Xoe_Qzhpgw" name="resultCallBehaviorActionOutput" outgoing="_lrZMEZQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_lrZzE5QdEeW7Xoe_Qzhpgw" name="*">
+          <argument xmi:id="_lrZzFJQdEeW7Xoe_Qzhpgw" name="first" incoming="_lrZMDJQdEeW7Xoe_Qzhpgw"/>
+          <argument xmi:id="_lrZzFZQdEeW7Xoe_Qzhpgw" name="second" incoming="_lrZMDZQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_lrZzFpQdEeW7Xoe_Qzhpgw" name="resultCallBehaviorActionOutput" outgoing="_lrZMCZQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_lrZzF5QdEeW7Xoe_Qzhpgw" name="-">
+          <argument xmi:id="_lrZzGJQdEeW7Xoe_Qzhpgw" name="first" incoming="_lrZMDpQdEeW7Xoe_Qzhpgw"/>
+          <argument xmi:id="_lrZzGZQdEeW7Xoe_Qzhpgw" name="second" incoming="_lrZMD5QdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_lrZzGpQdEeW7Xoe_Qzhpgw" name="resultCallBehaviorActionOutput" outgoing="_lrZMBZQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:DecisionNode" xmi:id="_lrZzG5QdEeW7Xoe_Qzhpgw" name="DecisionNode - IfStatement" incoming="_lrZMEJQdEeW7Xoe_Qzhpgw _lrZMEZQdEeW7Xoe_Qzhpgw" outgoing="_lrZMEpQdEeW7Xoe_Qzhpgw _lrZMFJQdEeW7Xoe_Qzhpgw" decisionInputFlow="_lrZMEZQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:ForkNode" xmi:id="_lrZzHJQdEeW7Xoe_Qzhpgw" name="External and End ForkNode" incoming="_lrZMB5QdEeW7Xoe_Qzhpgw" outgoing="_lrZMCpQdEeW7Xoe_Qzhpgw _lrZMDJQdEeW7Xoe_Qzhpgw _lrZMDpQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:ReadSelfAction" xmi:id="_lrZzHZQdEeW7Xoe_Qzhpgw" name="1" incoming="_lrZMFpQdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_lrZzHpQdEeW7Xoe_Qzhpgw" name="resultReadSelfActionOutput" outgoing="_lrZMBpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ForkNode" xmi:id="_lrZzH5QdEeW7Xoe_Qzhpgw" name="declare_num_aux_fork_node" incoming="_lrZMFJQdEeW7Xoe_Qzhpgw" outgoing="_lrZMFpQdEeW7Xoe_Qzhpgw _lrZMF5QdEeW7Xoe_Qzhpgw"/>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_lrZzIJQdEeW7Xoe_Qzhpgw" name="Method_Fac_ComputeFac" method="_lrZMApQdEeW7Xoe_Qzhpgw">
+        <ownedParameter xmi:id="_lrZzIZQdEeW7Xoe_Qzhpgw" name="num"/>
+        <ownedParameter xmi:id="_lrZzIpQdEeW7Xoe_Qzhpgw" name="return" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lrZzI5QdEeW7Xoe_Qzhpgw" name="Factorial">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_lrZzJJQdEeW7Xoe_Qzhpgw" name="Factorial_main" visibility="public" specification="_lrZzMJQdEeW7Xoe_Qzhpgw" node="_lrZzJ5QdEeW7Xoe_Qzhpgw _lrZzKZQdEeW7Xoe_Qzhpgw _lrZzLZQdEeW7Xoe_Qzhpgw">
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZzJZQdEeW7Xoe_Qzhpgw" name="VSA2COA_2" target="_lrZzKpQdEeW7Xoe_Qzhpgw" source="_lrZzLpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_lrZzJpQdEeW7Xoe_Qzhpgw" name="fromExpressionOutput2COA_ComputeFac_2" target="_lrZzLJQdEeW7Xoe_Qzhpgw" source="_lrZzKJQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:CreateObjectAction" xmi:id="_lrZzJ5QdEeW7Xoe_Qzhpgw" name="Constructor Invocation of Factorial.java" classifier="_lrZMAZQdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_lrZzKJQdEeW7Xoe_Qzhpgw" name="Result of constructor invocation of Factorial.java" outgoing="_lrZzJpQdEeW7Xoe_Qzhpgw" type="_lrZMAZQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_lrZzKZQdEeW7Xoe_Qzhpgw" name="ComputeFac" operation="_lrZzIJQdEeW7Xoe_Qzhpgw">
+          <argument xmi:id="_lrZzKpQdEeW7Xoe_Qzhpgw" name="target" incoming="_lrZzJZQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_lrZzK5QdEeW7Xoe_Qzhpgw" name="callOperationActionOutput"/>
+          <target xmi:id="_lrZzLJQdEeW7Xoe_Qzhpgw" name="objectInput" incoming="_lrZzJpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_lrZzLZQdEeW7Xoe_Qzhpgw" name="VSA_4">
+          <result xmi:id="_lrZzLpQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_lrZzJZQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_lrZzL5QdEeW7Xoe_Qzhpgw" value="10"/>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_lrZzMJQdEeW7Xoe_Qzhpgw" name="Method_Factorial_main" method="_lrZzJJQdEeW7Xoe_Qzhpgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lrZzMZQdEeW7Xoe_Qzhpgw" name="String[]">
+      <ownedAttribute xmi:id="_lrZzMpQdEeW7Xoe_Qzhpgw" name="type"/>
+    </packagedElement>
+  </uml:Model>
+  <uml:Property xmi:id="_lrZzM5QdEeW7Xoe_Qzhpgw" name="out" visibility="package" isUnique="false">
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lrZzNJQdEeW7Xoe_Qzhpgw"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lrZzNZQdEeW7Xoe_Qzhpgw" value="*"/>
+  </uml:Property>
+</xmi:XMI>

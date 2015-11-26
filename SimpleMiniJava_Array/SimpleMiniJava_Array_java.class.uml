@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_fXgMEJQdEeW7Xoe_Qzhpgw" name="root model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_fXgzIJQdEeW7Xoe_Qzhpgw" name="ArrayMain">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_fXgzIZQdEeW7Xoe_Qzhpgw" name="ArrayMain_main" visibility="public" specification="_fXgzLZQdEeW7Xoe_Qzhpgw" node="_fXgzJJQdEeW7Xoe_Qzhpgw _fXgzJpQdEeW7Xoe_Qzhpgw _fXgzKpQdEeW7Xoe_Qzhpgw">
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzIpQdEeW7Xoe_Qzhpgw" name="VSA2COA_1" target="_fXgzJ5QdEeW7Xoe_Qzhpgw" source="_fXgzK5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzI5QdEeW7Xoe_Qzhpgw" name="fromExpressionOutput2COA_access_1" target="_fXgzKZQdEeW7Xoe_Qzhpgw" source="_fXgzJZQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:CreateObjectAction" xmi:id="_fXgzJJQdEeW7Xoe_Qzhpgw" name="Constructor Invocation of ArrayMain.java" classifier="_fXgzLpQdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_fXgzJZQdEeW7Xoe_Qzhpgw" name="Result of constructor invocation of ArrayMain.java" outgoing="_fXgzI5QdEeW7Xoe_Qzhpgw" type="_fXgzLpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_fXgzJpQdEeW7Xoe_Qzhpgw" name="access" operation="_fXhaMpQdEeW7Xoe_Qzhpgw">
+          <argument xmi:id="_fXgzJ5QdEeW7Xoe_Qzhpgw" name="target" incoming="_fXgzIpQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_fXgzKJQdEeW7Xoe_Qzhpgw" name="callOperationActionOutput"/>
+          <target xmi:id="_fXgzKZQdEeW7Xoe_Qzhpgw" name="objectInput" incoming="_fXgzI5QdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_fXgzKpQdEeW7Xoe_Qzhpgw" name="VSA_1">
+          <result xmi:id="_fXgzK5QdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_fXgzIpQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_fXgzLJQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_fXgzLZQdEeW7Xoe_Qzhpgw" name="Method_ArrayMain_main" method="_fXgzIZQdEeW7Xoe_Qzhpgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fXgzLpQdEeW7Xoe_Qzhpgw" name="ArrayClass">
+      <ownedAttribute xmi:id="_fXgzL5QdEeW7Xoe_Qzhpgw" name="array" visibility="package" isOrdered="true" isUnique="false">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fXgzMJQdEeW7Xoe_Qzhpgw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fXgzMZQdEeW7Xoe_Qzhpgw" value="*"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_fXgzMpQdEeW7Xoe_Qzhpgw" name="ArrayClass_access" visibility="public" specification="_fXhaMpQdEeW7Xoe_Qzhpgw" node="_fXgzQpQdEeW7Xoe_Qzhpgw _fXgzRZQdEeW7Xoe_Qzhpgw _fXgzSJQdEeW7Xoe_Qzhpgw _fXgzS5QdEeW7Xoe_Qzhpgw _fXgzTpQdEeW7Xoe_Qzhpgw _fXgzUJQdEeW7Xoe_Qzhpgw _fXgzUZQdEeW7Xoe_Qzhpgw _fXgzVpQdEeW7Xoe_Qzhpgw _fXgzWJQdEeW7Xoe_Qzhpgw _fXgzXZQdEeW7Xoe_Qzhpgw _fXgzX5QdEeW7Xoe_Qzhpgw _fXgzYZQdEeW7Xoe_Qzhpgw _fXgzZJQdEeW7Xoe_Qzhpgw">
+        <ownedParameter xmi:id="_fXgzM5QdEeW7Xoe_Qzhpgw" name="index"/>
+        <ownedParameter xmi:id="_fXgzNJQdEeW7Xoe_Qzhpgw" name="return" direction="return"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzNZQdEeW7Xoe_Qzhpgw" name="fromExpressionToActivityParameterNodereturn" target="_fXgzUJQdEeW7Xoe_Qzhpgw" source="_fXgzY5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzNpQdEeW7Xoe_Qzhpgw" name="RSA1_to_ASFVA1" target="_fXgzUpQdEeW7Xoe_Qzhpgw" source="_fXgzV5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzN5QdEeW7Xoe_Qzhpgw" name="VSA_to_ASFVA1" target="_fXgzVJQdEeW7Xoe_Qzhpgw" source="_fXgzQ5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzOJQdEeW7Xoe_Qzhpgw" name="VSA_to_ASFVAinsert1" target="_fXgzVZQdEeW7Xoe_Qzhpgw" source="_fXgzSZQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_fXgzOZQdEeW7Xoe_Qzhpgw" name="ASFVA1_to_RSA" target="_fXgzXZQdEeW7Xoe_Qzhpgw" source="_fXgzUZQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzOpQdEeW7Xoe_Qzhpgw" name="RSA2_to_ASFVA2" target="_fXgzWZQdEeW7Xoe_Qzhpgw" source="_fXgzXpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzO5QdEeW7Xoe_Qzhpgw" name="VSA_to_ASFVA2" target="_fXgzW5QdEeW7Xoe_Qzhpgw" source="_fXgzRpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzPJQdEeW7Xoe_Qzhpgw" name="VSA_to_ASFVAinsert2" target="_fXgzXJQdEeW7Xoe_Qzhpgw" source="_fXgzTJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_fXgzPZQdEeW7Xoe_Qzhpgw" name="ASFVA2_to_RSA" target="_fXgzXZQdEeW7Xoe_Qzhpgw" source="_fXgzWJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzPpQdEeW7Xoe_Qzhpgw" name="APN_to_getArray" target="_fXhaMJQdEeW7Xoe_Qzhpgw" source="_fXgzTpQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzP5QdEeW7Xoe_Qzhpgw" name="RSA_to_RSFA" target="_fXgzYpQdEeW7Xoe_Qzhpgw" source="_fXgzYJQdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_fXgzQJQdEeW7Xoe_Qzhpgw" name="RSFA1_to_getArray" target="_fXgzZZQdEeW7Xoe_Qzhpgw" source="_fXgzY5QdEeW7Xoe_Qzhpgw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_fXgzQZQdEeW7Xoe_Qzhpgw" name="RSFA1_to_getArray" target="_fXgzZJQdEeW7Xoe_Qzhpgw" source="_fXgzYZQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_fXgzQpQdEeW7Xoe_Qzhpgw" name="VSA_2">
+          <result xmi:id="_fXgzQ5QdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_fXgzN5QdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_fXgzRJQdEeW7Xoe_Qzhpgw" value="3"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_fXgzRZQdEeW7Xoe_Qzhpgw" name="VSA_3">
+          <result xmi:id="_fXgzRpQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_fXgzO5QdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_fXgzR5QdEeW7Xoe_Qzhpgw" value="4"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_fXgzSJQdEeW7Xoe_Qzhpgw" name="VSA_4">
+          <result xmi:id="_fXgzSZQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_fXgzOJQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fXgzSpQdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ValueSpecificationAction" xmi:id="_fXgzS5QdEeW7Xoe_Qzhpgw" name="VSA_5">
+          <result xmi:id="_fXgzTJQdEeW7Xoe_Qzhpgw" name="resultValueSpecificationActionOutput" outgoing="_fXgzPJQdEeW7Xoe_Qzhpgw"/>
+          <value xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fXgzTZQdEeW7Xoe_Qzhpgw" value="2"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_fXgzTpQdEeW7Xoe_Qzhpgw" name="index" outgoing="_fXgzPpQdEeW7Xoe_Qzhpgw" parameter="_fXgzM5QdEeW7Xoe_Qzhpgw">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_fXgzT5QdEeW7Xoe_Qzhpgw" value="1"/>
+        </node>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_fXgzUJQdEeW7Xoe_Qzhpgw" name="return" incoming="_fXgzNZQdEeW7Xoe_Qzhpgw" parameter="_fXgzNJQdEeW7Xoe_Qzhpgw"/>
+        <node xmi:type="uml:AddStructuralFeatureValueAction" xmi:id="_fXgzUZQdEeW7Xoe_Qzhpgw" name="add_ASFVA_1" outgoing="_fXgzOZQdEeW7Xoe_Qzhpgw" structuralFeature="_fXgzL5QdEeW7Xoe_Qzhpgw">
+          <object xmi:id="_fXgzUpQdEeW7Xoe_Qzhpgw" name="objectInputAddStructuralFeatureValueAction" incoming="_fXgzNpQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_fXgzU5QdEeW7Xoe_Qzhpgw" name="result"/>
+          <value xmi:id="_fXgzVJQdEeW7Xoe_Qzhpgw" name="valueInputAddStructuralFeatureValueAction" incoming="_fXgzN5QdEeW7Xoe_Qzhpgw"/>
+          <insertAt xmi:id="_fXgzVZQdEeW7Xoe_Qzhpgw" name="insertAtInputAddStructuralFeatureValueAction" incoming="_fXgzOJQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ReadSelfAction" xmi:id="_fXgzVpQdEeW7Xoe_Qzhpgw" name="RSA_1">
+          <result xmi:id="_fXgzV5QdEeW7Xoe_Qzhpgw" name="output" outgoing="_fXgzNpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:AddStructuralFeatureValueAction" xmi:id="_fXgzWJQdEeW7Xoe_Qzhpgw" name="add_ASFVA_2" outgoing="_fXgzPZQdEeW7Xoe_Qzhpgw" structuralFeature="_fXgzL5QdEeW7Xoe_Qzhpgw">
+          <object xmi:id="_fXgzWZQdEeW7Xoe_Qzhpgw" name="objectInputAddStructuralFeatureValueAction" incoming="_fXgzOpQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_fXgzWpQdEeW7Xoe_Qzhpgw" name="result"/>
+          <value xmi:id="_fXgzW5QdEeW7Xoe_Qzhpgw" name="valueInputAddStructuralFeatureValueAction" incoming="_fXgzO5QdEeW7Xoe_Qzhpgw"/>
+          <insertAt xmi:id="_fXgzXJQdEeW7Xoe_Qzhpgw" name="insertAtInputAddStructuralFeatureValueAction" incoming="_fXgzPJQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ReadSelfAction" xmi:id="_fXgzXZQdEeW7Xoe_Qzhpgw" name="RSA_2" incoming="_fXgzOZQdEeW7Xoe_Qzhpgw _fXgzPZQdEeW7Xoe_Qzhpgw">
+          <result xmi:id="_fXgzXpQdEeW7Xoe_Qzhpgw" name="output" outgoing="_fXgzOpQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ReadSelfAction" xmi:id="_fXgzX5QdEeW7Xoe_Qzhpgw" name="RSA_3">
+          <result xmi:id="_fXgzYJQdEeW7Xoe_Qzhpgw" name="output" outgoing="_fXgzP5QdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:ReadStructuralFeatureAction" xmi:id="_fXgzYZQdEeW7Xoe_Qzhpgw" name="read_RSFA_1" outgoing="_fXgzQZQdEeW7Xoe_Qzhpgw" structuralFeature="_fXgzL5QdEeW7Xoe_Qzhpgw">
+          <object xmi:id="_fXgzYpQdEeW7Xoe_Qzhpgw" name="readStructuralFeatureActioInput" incoming="_fXgzP5QdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_fXgzY5QdEeW7Xoe_Qzhpgw" name="readStructuralFeatureActionOutput" outgoing="_fXgzNZQdEeW7Xoe_Qzhpgw _fXgzQJQdEeW7Xoe_Qzhpgw"/>
+        </node>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_fXgzZJQdEeW7Xoe_Qzhpgw" name="get array" incoming="_fXgzQZQdEeW7Xoe_Qzhpgw">
+          <argument xmi:id="_fXgzZZQdEeW7Xoe_Qzhpgw" name="list" incoming="_fXgzQJQdEeW7Xoe_Qzhpgw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fXgzZpQdEeW7Xoe_Qzhpgw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fXgzZ5QdEeW7Xoe_Qzhpgw" value="*"/>
+          </argument>
+          <argument xmi:id="_fXhaMJQdEeW7Xoe_Qzhpgw" name="index" incoming="_fXgzPpQdEeW7Xoe_Qzhpgw"/>
+          <result xmi:id="_fXhaMZQdEeW7Xoe_Qzhpgw" name="CBA_output"/>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_fXhaMpQdEeW7Xoe_Qzhpgw" name="Method_ArrayClass_access" method="_fXgzMpQdEeW7Xoe_Qzhpgw">
+        <ownedParameter xmi:id="_fXhaM5QdEeW7Xoe_Qzhpgw" name="index"/>
+        <ownedParameter xmi:id="_fXhaNJQdEeW7Xoe_Qzhpgw" name="return" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fXhaNZQdEeW7Xoe_Qzhpgw" name="String[]">
+      <ownedAttribute xmi:id="_fXhaNpQdEeW7Xoe_Qzhpgw" name="type"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fXhaN5QdEeW7Xoe_Qzhpgw" name="int[]">
+      <ownedAttribute xmi:id="_fXhaOJQdEeW7Xoe_Qzhpgw" name="type"/>
+    </packagedElement>
+  </uml:Model>
+  <uml:Property xmi:id="_fXhaOZQdEeW7Xoe_Qzhpgw" name="out" visibility="package" isUnique="false">
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fXhaOpQdEeW7Xoe_Qzhpgw"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fXhaO5QdEeW7Xoe_Qzhpgw" value="*"/>
+  </uml:Property>
+</xmi:XMI>
